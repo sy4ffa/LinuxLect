@@ -1,0 +1,1 @@
+cmd_/home/allisya/linux2023/hello_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/allisya/linux2023/hello_module.ko /home/allisya/linux2023/hello_module.o /home/allisya/linux2023/hello_module.mod.o;  true
